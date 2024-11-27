@@ -14,8 +14,6 @@ body {
     line-height: 1.6;
 }
 
-
-
 .container {
     width: min(100% - 30px, 1200px);
     margin-inline: auto;
@@ -74,16 +72,14 @@ body.dark nav a {
 
 /* Flexbox for profile section */
 .profile {
-    display: flex;
     gap: 30px;
-    justify-content: center;
     margin-bottom: 15px;
 }
 
 .left-section {
     flex: 1;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #f6fbff;
     margin-bottom: 60px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -179,7 +175,7 @@ body.dark nav a {
 }
 
 .about-me {
-    background-color: #ffffff; /* White background */
+    background-color: #f4f4f4;
     padding: 25px 60px 25px 60px ;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -194,7 +190,7 @@ body.dark nav a {
 h2 {
     color: #000; 
     margin: 20px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .skills {
