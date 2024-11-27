@@ -25,7 +25,7 @@ header {
     align-items: center;
     padding: 15px 0 30px 0;
     position: sticky;
-    z-index: 1000;
+    z-index: 4;
 }
 
 .logo {
@@ -76,13 +76,45 @@ body.dark nav a {
     margin-bottom: 15px;
 }
 
+/* Video background */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.video-background .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+/* Transparent Layer */
+.transparent-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(161, 154, 154, 0.4); /* Adjust transparency here */
+    z-index: -1; /* Between the video and the content */
+}
+
+
 .left-section {
     flex: 1;
     text-align: center;
-    background-color: #f6fbff;
     margin-bottom: 60px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
     padding-bottom: 30px;
 }
 
@@ -177,7 +209,6 @@ body.dark nav a {
 .about-me {
     background-color: #f4f4f4;
     padding: 25px 60px 25px 60px ;
-    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
