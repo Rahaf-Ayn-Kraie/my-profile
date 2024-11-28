@@ -15,18 +15,6 @@ document.querySelector('.download-resume').addEventListener('click', function ()
     window.open('./assets/resume/resume.pdf');
 });
 
-const skills = document.querySelectorAll('.skill');
-
-skills.forEach(skill => {
-    skill.addEventListener('mouseenter', () => {
-        skill.classList.add('hovered');
-    });
-
-    skill.addEventListener('mouseleave', () => {
-        skill.classList.remove('hovered');
-    });
-});
-
 const knowMoreButton = document.querySelector('.know-more');
 
 knowMoreButton.addEventListener('click', () => {
