@@ -26,3 +26,13 @@ skills.forEach(skill => {
         skill.classList.remove('hovered');
     });
 });
+
+const knowMoreButton = document.querySelector('.know-more');
+
+knowMoreButton.addEventListener('click', () => {
+    const aboutSection = document.querySelector('.about-me');
+    aboutSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'      
+    });
+});

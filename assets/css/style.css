@@ -46,7 +46,6 @@ nav {
 }
 
 nav a {
-    color: #333; /* Default text color for links in light mode */
     text-decoration: none;
     margin-left: 20px;
     font-weight: 500;
@@ -78,7 +77,7 @@ body.dark nav a {
 
 /* Video background */
 .video-background {
-    position: absolute;
+    position: absolute ;
     top: 0;
     left: 0;
     width: 100%;
@@ -108,26 +107,17 @@ body.dark nav a {
     z-index: -1; /* Between the video and the content */
 }
 
-
 .left-section {
     flex: 1;
     text-align: center;
     margin-bottom: 60px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
-    padding-bottom: 30px;
-}
-
-.profile-pic img {
-    width: 400px;
-    height: 200px;
-    padding: 0 100px 0 100px;
-    object-fit: cover;
-    border-radius: 50%;
+    padding-bottom: 200px;
 }
 
 .name {
-    
+    padding-top: 200px;
     font-size: 86px;
     margin-top: 15px;
     font-weight: bold;
@@ -206,11 +196,13 @@ body.dark nav a {
 
 /* Right Section */
 .right-section {
+    padding-top: 100px;
     flex: 2;
     padding-bottom: 60px;
 }
 
 .about-me {
+    margin-top: 100px;
     background-color: #f4f4f4;
     padding: 25px 60px 25px 60px ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -237,7 +229,7 @@ h2 {
 .skill {
     flex: 1;
     min-width: 45%;
-    background-color: #f9f9f9; /* Light gray for skill cards */
+    background-color: #f9f9f9;
     padding: 20px;
     margin: 5px;
     border-radius: 12px;
