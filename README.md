@@ -7,7 +7,7 @@ learn more about me.
 ## Live Demo
 
 You can check out the live demo of the **portfoilo** website here: 
-[my-profile Demo](https://rahaf-ayn-kraie.github.io/my-profile/)
+[My profile Demo](https://rahaf-ayn-kraie.github.io/my-profile/)
 
 ## Features
 
@@ -41,9 +41,7 @@ You can check out the live demo of the **portfoilo** website here:
 [![CSS Badge](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&labelColor=black&logo=css3&logoColor=1572B6)](#)
 
 <h3 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?
-font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Thanks+for+visiting!+✌️;+Shoot+me+a+
-message+on+email!;Rahaf+:)&color=F5A9B8">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Thanks+for+visiting!+✌️;+Shoot+me+a+message+on+email!;Rahaf+:)&color=F5A9B8">
 </h3>
 
 <br/>
