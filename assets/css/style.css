@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -37,7 +38,6 @@ header {
     background: linear-gradient(to right, #ff5733, #ffc107);
     background-clip:text;
     -webkit-text-fill-color: transparent;
-    
     font-weight: bold;
 }
 
@@ -127,6 +127,7 @@ body.dark nav a {
 }
 
 .name {
+    
     font-size: 86px;
     margin-top: 15px;
     font-weight: bold;
